@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNAMIC GALLERY</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        h1 {
+            text-align: center;
+        }
+        .body {
+            height: 100vh;
+            border: 1px solid black;
+            display: flex;
+        }        
+        .box {
+            height: 100%;
+            width: 25%;
+            border: 1px solid black;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>DYNAMIC GALLERY</h1>
+    <div class="body">
+        <div class="box">
+            <img src="images/1.png" alt="">
+            <img src="images/2.PNG" alt="">
+            <img src="images/3.PNG" alt="">
+            <img src="images/4.PNG" alt="">
+        </div>
+        <div class="box">
+            <img src="images/3.PNG" alt="">
+        <img src="images/1.png" alt="">
+        <img src="images/2.PNG" alt="">
+        <img src="images/4.PNG" alt="">
+    </div>
+    <div class="box">
+        <img src="images/2.PNG" alt="">
+        <img src="images/4.PNG" alt="">
+        <img src="images/1.png" alt="">
+        <img src="images/3.PNG" alt="">
+    </div>
+    <div class="box">
+        <img src="images/4.PNG" alt="">
+        <img src="images/3.PNG" alt="">
+        <img src="images/2.PNG" alt="">
+        <img src="images/1.png" alt="">
+    </div>
+
+</div>
+</body>
+</html>
